@@ -1,0 +1,14 @@
+C:\Users\Heran\source\repos\UnitConverter\bin\Debug\UnitConverter.exe.config
+C:\Users\Heran\source\repos\UnitConverter\bin\Debug\UnitConverter.exe
+C:\Users\Heran\source\repos\UnitConverter\bin\Debug\UnitConverter.pdb
+C:\Users\Heran\source\repos\UnitConverter\obj\Debug\UnitConverter.csprojAssemblyReference.cache
+C:\Users\Heran\source\repos\UnitConverter\obj\Debug\MainWindow.g.cs
+C:\Users\Heran\source\repos\UnitConverter\obj\Debug\App.g.cs
+C:\Users\Heran\source\repos\UnitConverter\obj\Debug\UnitConverter_MarkupCompile.cache
+C:\Users\Heran\source\repos\UnitConverter\obj\Debug\UnitConverter_MarkupCompile.lref
+C:\Users\Heran\source\repos\UnitConverter\obj\Debug\MainWindow.baml
+C:\Users\Heran\source\repos\UnitConverter\obj\Debug\UnitConverter.g.resources
+C:\Users\Heran\source\repos\UnitConverter\obj\Debug\UnitConverter.Properties.Resources.resources
+C:\Users\Heran\source\repos\UnitConverter\obj\Debug\UnitConverter.csproj.GenerateResource.cache
+C:\Users\Heran\source\repos\UnitConverter\obj\Debug\UnitConverter.exe
+C:\Users\Heran\source\repos\UnitConverter\obj\Debug\UnitConverter.pdb

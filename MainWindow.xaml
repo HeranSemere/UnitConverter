@@ -1,0 +1,131 @@
+﻿<Window x:Class="UnitConverter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UnitConverter"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Border Margin="0 20 0 0">
+        <StackPanel>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+    <StackPanel>
+            <TextBlock Text="Tempreture converter" HorizontalAlignment="Center" FontSize="15" Margin="0 0 0 30" />
+            <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            
+        
+            <StackPanel>
+                    <Grid>
+                            <TextBlock Text="From:" FontSize="10" Margin="10 0 0 0" />
+                        <ComboBox Width="90" x:Name="fromCombo" Margin="30 0 0 0">
+                        <ComboBoxItem>Celsius</ComboBoxItem>
+                        <ComboBoxItem>Fahrenhiet</ComboBoxItem>
+                        <ComboBoxItem>Kelvin</ComboBoxItem>
+                    </ComboBox>
+                    </Grid>
+                        <TextBox Width="100"  x:Name="fromText" TextAlignment="Center" Margin="0 40" />
+                </StackPanel>
+        
+                <StackPanel Grid.Column="1"> <!-- -->
+                    <Grid>
+                        <TextBlock Text="To:" FontSize="10" />
+                    <ComboBox Width="90" x:Name="toCombo">
+                        <ComboBoxItem>Celsius</ComboBoxItem>
+                        <ComboBoxItem>Fahrenhiet</ComboBoxItem>
+                        <ComboBoxItem>Kelvin</ComboBoxItem>
+                    </ComboBox>
+                        </Grid>
+                    <TextBlock Background="#eee" Margin="0 40" x:Name="toText" TextAlignment="Center" Width="100"/>
+                </StackPanel>
+            </Grid>
+            <Button Margin="0 40"  Content="Convert" Width="70" Click="Button_Click" />
+            </StackPanel>
+           <!--second grid partition starts here-->
+            <StackPanel Grid.Column="1">
+                <TextBlock Text="Time converter" HorizontalAlignment="Center" FontSize="15" Margin="0 0 0 30" />
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition />
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+
+
+                    <StackPanel>
+                        <Grid>
+                            <TextBlock Text="From:" FontSize="10" Margin="10 0 0 0" />
+                            <ComboBox Width="90" x:Name="timeFromCombo" Margin="30 0 0 0">
+                                <ComboBoxItem>Second</ComboBoxItem>
+                                <ComboBoxItem>Minuet</ComboBoxItem>
+                                <ComboBoxItem>Hour</ComboBoxItem>
+                            </ComboBox>
+                        </Grid>
+                        <TextBox Width="100"  x:Name="timeFromText" TextAlignment="Center" Margin="0 40" />
+                    </StackPanel>
+
+                    <StackPanel Grid.Column="1">
+                        <!-- -->
+                        <Grid>
+                            <TextBlock Text="To:" FontSize="10" />
+                            <ComboBox Width="90" x:Name="timeToCombo">
+                                <ComboBoxItem>Second</ComboBoxItem>
+                                <ComboBoxItem>Minuet</ComboBoxItem>
+                                <ComboBoxItem>Hour</ComboBoxItem>
+                               
+                            </ComboBox>
+                        </Grid>
+                        <TextBlock Background="#eee" Margin="0 40" x:Name="timeToText" TextAlignment="Center" Width="100"/>
+                    </StackPanel>
+                </Grid>
+                <Button Margin="0 40"  Content="Convert" Width="70" Click="Button_Click_1" />
+            </StackPanel>
+            <!--third grid partition starts here-->
+            <StackPanel Grid.Column="2">
+                <TextBlock Text="Weight converter" HorizontalAlignment="Center" FontSize="15" Margin="0 0 0 30" />
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition />
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+
+
+                    <StackPanel>
+                        <Grid>
+                            <TextBlock Text="From:" FontSize="10" Margin="10 0 0 0" />
+                            <ComboBox Width="90" x:Name="weightFromCombo" Margin="30 0 0 0">
+                                <ComboBoxItem>Killogram</ComboBoxItem>
+                                <ComboBoxItem>Pound</ComboBoxItem>
+                            </ComboBox>
+                        </Grid>
+                        <TextBox Width="100"  x:Name="weightFromText" TextAlignment="Center" Margin="0 40" />
+                    </StackPanel>
+
+                    <StackPanel Grid.Column="1">
+                        <!-- -->
+                        <Grid>
+                            <TextBlock Text="To:" FontSize="10" />
+                            <ComboBox Width="90" x:Name="weightToCombo">
+                                <ComboBoxItem>Killogram</ComboBoxItem>
+                                <ComboBoxItem>Pound</ComboBoxItem>
+                            </ComboBox>
+                        </Grid>
+                        <TextBlock Background="#eee" Margin="0 40" x:Name="weightToText" TextAlignment="Center" Width="100"/>
+                    </StackPanel>
+                </Grid>
+                <Button Margin="0 40"  Content="Convert" Width="70" Click="Button_Click_2" />
+            </StackPanel>
+            
+            
+        </Grid>
+            <Button Content="clear" Width="100" Margin="0 20 0 0" Click="clear"/>
+        </StackPanel>
+    </Border>
+</Window>
